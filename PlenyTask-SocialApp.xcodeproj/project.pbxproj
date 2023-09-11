@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE69D32C2AAF8067005E3FE7 /* PlenyTask_SocialAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69D32B2AAF8067005E3FE7 /* PlenyTask_SocialAppApp.swift */; };
+		CE69D32E2AAF8067005E3FE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69D32D2AAF8067005E3FE7 /* ContentView.swift */; };
+		CE69D3302AAF8068005E3FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE69D32F2AAF8068005E3FE7 /* Assets.xcassets */; };
+		CE69D3332AAF8068005E3FE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE69D3322AAF8068005E3FE7 /* Preview Assets.xcassets */; };
+		CE69D33D2AAF8068005E3FE7 /* PlenyTask_SocialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69D33C2AAF8068005E3FE7 /* PlenyTask_SocialAppTests.swift */; };
+		CE69D3472AAF8068005E3FE7 /* PlenyTask_SocialAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69D3462AAF8068005E3FE7 /* PlenyTask_SocialAppUITests.swift */; };
+		CE69D3492AAF8068005E3FE7 /* PlenyTask_SocialAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69D3482AAF8068005E3FE7 /* PlenyTask_SocialAppUITestsLaunchTests.swift */; };
+		CE69D3592AAF8098005E3FE7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69D3582AAF8098005E3FE7 /* LoginView.swift */; };
+		CE69D35D2AAF876C005E3FE7 /* UserNameField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69D35C2AAF876C005E3FE7 /* UserNameField.swift */; };
+		CE69D35F2AAF8B60005E3FE7 /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69D35E2AAF8B60005E3FE7 /* PasswordField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE69D3392AAF8068005E3FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE69D3202AAF8067005E3FE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE69D3272AAF8067005E3FE7;
+			remoteInfo = "PlenyTask-SocialApp";
+		};
+		CE69D3432AAF8068005E3FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE69D3202AAF8067005E3FE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE69D3272AAF8067005E3FE7;
+			remoteInfo = "PlenyTask-SocialApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE69D3282AAF8067005E3FE7 /* PlenyTask-SocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlenyTask-SocialApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE69D32B2AAF8067005E3FE7 /* PlenyTask_SocialAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlenyTask_SocialAppApp.swift; sourceTree = "<group>"; };
+		CE69D32D2AAF8067005E3FE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE69D32F2AAF8068005E3FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE69D3322AAF8068005E3FE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE69D3382AAF8068005E3FE7 /* PlenyTask-SocialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PlenyTask-SocialAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE69D33C2AAF8068005E3FE7 /* PlenyTask_SocialAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlenyTask_SocialAppTests.swift; sourceTree = "<group>"; };
+		CE69D3422AAF8068005E3FE7 /* PlenyTask-SocialAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PlenyTask-SocialAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE69D3462AAF8068005E3FE7 /* PlenyTask_SocialAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlenyTask_SocialAppUITests.swift; sourceTree = "<group>"; };
+		CE69D3482AAF8068005E3FE7 /* PlenyTask_SocialAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlenyTask_SocialAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE69D3582AAF8098005E3FE7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CE69D35C2AAF876C005E3FE7 /* UserNameField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameField.swift; sourceTree = "<group>"; };
+		CE69D35E2AAF8B60005E3FE7 /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE69D3252AAF8067005E3FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE69D3352AAF8068005E3FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE69D33F2AAF8068005E3FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE69D31F2AAF8067005E3FE7 = {
+			isa = PBXGroup;
+			children = (
+				CE69D32A2AAF8067005E3FE7 /* PlenyTask-SocialApp */,
+				CE69D33B2AAF8068005E3FE7 /* PlenyTask-SocialAppTests */,
+				CE69D3452AAF8068005E3FE7 /* PlenyTask-SocialAppUITests */,
+				CE69D3292AAF8067005E3FE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE69D3292AAF8067005E3FE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE69D3282AAF8067005E3FE7 /* PlenyTask-SocialApp.app */,
+				CE69D3382AAF8068005E3FE7 /* PlenyTask-SocialAppTests.xctest */,
+				CE69D3422AAF8068005E3FE7 /* PlenyTask-SocialAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE69D32A2AAF8067005E3FE7 /* PlenyTask-SocialApp */ = {
+			isa = PBXGroup;
+			children = (
+				CE69D3572AAF8085005E3FE7 /* ViewModel */,
+				CE69D3562AAF8081005E3FE7 /* View */,
+				CE69D3552AAF807B005E3FE7 /* Model */,
+				CE69D32B2AAF8067005E3FE7 /* PlenyTask_SocialAppApp.swift */,
+				CE69D32D2AAF8067005E3FE7 /* ContentView.swift */,
+				CE69D32F2AAF8068005E3FE7 /* Assets.xcassets */,
+				CE69D3312AAF8068005E3FE7 /* Preview Content */,
+			);
+			path = "PlenyTask-SocialApp";
+			sourceTree = "<group>";
+		};
+		CE69D3312AAF8068005E3FE7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE69D3322AAF8068005E3FE7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE69D33B2AAF8068005E3FE7 /* PlenyTask-SocialAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE69D33C2AAF8068005E3FE7 /* PlenyTask_SocialAppTests.swift */,
+			);
+			path = "PlenyTask-SocialAppTests";
+			sourceTree = "<group>";
+		};
+		CE69D3452AAF8068005E3FE7 /* PlenyTask-SocialAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE69D3462AAF8068005E3FE7 /* PlenyTask_SocialAppUITests.swift */,
+				CE69D3482AAF8068005E3FE7 /* PlenyTask_SocialAppUITestsLaunchTests.swift */,
+			);
+			path = "PlenyTask-SocialAppUITests";
+			sourceTree = "<group>";
+		};
+		CE69D3552AAF807B005E3FE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE69D3562AAF8081005E3FE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE69D35A2AAF86F4005E3FE7 /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE69D3572AAF8085005E3FE7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE69D35A2AAF86F4005E3FE7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CE69D35B2AAF86FE005E3FE7 /* Component */,
+				CE69D3582AAF8098005E3FE7 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CE69D35B2AAF86FE005E3FE7 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				CE69D35C2AAF876C005E3FE7 /* UserNameField.swift */,
+				CE69D35E2AAF8B60005E3FE7 /* PasswordField.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE69D3272AAF8067005E3FE7 /* PlenyTask-SocialApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE69D34C2AAF8068005E3FE7 /* Build configuration list for PBXNativeTarget "PlenyTask-SocialApp" */;
+			buildPhases = (
+				CE69D3242AAF8067005E3FE7 /* Sources */,
+				CE69D3252AAF8067005E3FE7 /* Frameworks */,
+				CE69D3262AAF8067005E3FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PlenyTask-SocialApp";
+			productName = "PlenyTask-SocialApp";
+			productReference = CE69D3282AAF8067005E3FE7 /* PlenyTask-SocialApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE69D3372AAF8068005E3FE7 /* PlenyTask-SocialAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE69D34F2AAF8068005E3FE7 /* Build configuration list for PBXNativeTarget "PlenyTask-SocialAppTests" */;
+			buildPhases = (
+				CE69D3342AAF8068005E3FE7 /* Sources */,
+				CE69D3352AAF8068005E3FE7 /* Frameworks */,
+				CE69D3362AAF8068005E3FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE69D33A2AAF8068005E3FE7 /* PBXTargetDependency */,
+			);
+			name = "PlenyTask-SocialAppTests";
+			productName = "PlenyTask-SocialAppTests";
+			productReference = CE69D3382AAF8068005E3FE7 /* PlenyTask-SocialAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE69D3412AAF8068005E3FE7 /* PlenyTask-SocialAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE69D3522AAF8068005E3FE7 /* Build configuration list for PBXNativeTarget "PlenyTask-SocialAppUITests" */;
+			buildPhases = (
+				CE69D33E2AAF8068005E3FE7 /* Sources */,
+				CE69D33F2AAF8068005E3FE7 /* Frameworks */,
+				CE69D3402AAF8068005E3FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE69D3442AAF8068005E3FE7 /* PBXTargetDependency */,
+			);
+			name = "PlenyTask-SocialAppUITests";
+			productName = "PlenyTask-SocialAppUITests";
+			productReference = CE69D3422AAF8068005E3FE7 /* PlenyTask-SocialAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE69D3202AAF8067005E3FE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CE69D3272AAF8067005E3FE7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CE69D3372AAF8068005E3FE7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CE69D3272AAF8067005E3FE7;
+					};
+					CE69D3412AAF8068005E3FE7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CE69D3272AAF8067005E3FE7;
+					};
+				};
+			};
+			buildConfigurationList = CE69D3232AAF8067005E3FE7 /* Build configuration list for PBXProject "PlenyTask-SocialApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE69D31F2AAF8067005E3FE7;
+			productRefGroup = CE69D3292AAF8067005E3FE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE69D3272AAF8067005E3FE7 /* PlenyTask-SocialApp */,
+				CE69D3372AAF8068005E3FE7 /* PlenyTask-SocialAppTests */,
+				CE69D3412AAF8068005E3FE7 /* PlenyTask-SocialAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE69D3262AAF8067005E3FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE69D3332AAF8068005E3FE7 /* Preview Assets.xcassets in Resources */,
+				CE69D3302AAF8068005E3FE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE69D3362AAF8068005E3FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE69D3402AAF8068005E3FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE69D3242AAF8067005E3FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE69D3592AAF8098005E3FE7 /* LoginView.swift in Sources */,
+				CE69D32E2AAF8067005E3FE7 /* ContentView.swift in Sources */,
+				CE69D35D2AAF876C005E3FE7 /* UserNameField.swift in Sources */,
+				CE69D35F2AAF8B60005E3FE7 /* PasswordField.swift in Sources */,
+				CE69D32C2AAF8067005E3FE7 /* PlenyTask_SocialAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE69D3342AAF8068005E3FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE69D33D2AAF8068005E3FE7 /* PlenyTask_SocialAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE69D33E2AAF8068005E3FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE69D3472AAF8068005E3FE7 /* PlenyTask_SocialAppUITests.swift in Sources */,
+				CE69D3492AAF8068005E3FE7 /* PlenyTask_SocialAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE69D33A2AAF8068005E3FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE69D3272AAF8067005E3FE7 /* PlenyTask-SocialApp */;
+			targetProxy = CE69D3392AAF8068005E3FE7 /* PBXContainerItemProxy */;
+		};
+		CE69D3442AAF8068005E3FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE69D3272AAF8067005E3FE7 /* PlenyTask-SocialApp */;
+			targetProxy = CE69D3432AAF8068005E3FE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE69D34A2AAF8068005E3FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE69D34B2AAF8068005E3FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE69D34D2AAF8068005E3FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlenyTask-SocialApp/Preview Content\"";
+				DEVELOPMENT_TEAM = M8S29G9Z3W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "odayNewMac.PlenyTask-SocialApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE69D34E2AAF8068005E3FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlenyTask-SocialApp/Preview Content\"";
+				DEVELOPMENT_TEAM = M8S29G9Z3W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "odayNewMac.PlenyTask-SocialApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE69D3502AAF8068005E3FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8S29G9Z3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "odayNewMac.PlenyTask-SocialAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlenyTask-SocialApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlenyTask-SocialApp";
+			};
+			name = Debug;
+		};
+		CE69D3512AAF8068005E3FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8S29G9Z3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "odayNewMac.PlenyTask-SocialAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlenyTask-SocialApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlenyTask-SocialApp";
+			};
+			name = Release;
+		};
+		CE69D3532AAF8068005E3FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8S29G9Z3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "odayNewMac.PlenyTask-SocialAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PlenyTask-SocialApp";
+			};
+			name = Debug;
+		};
+		CE69D3542AAF8068005E3FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8S29G9Z3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "odayNewMac.PlenyTask-SocialAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PlenyTask-SocialApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE69D3232AAF8067005E3FE7 /* Build configuration list for PBXProject "PlenyTask-SocialApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE69D34A2AAF8068005E3FE7 /* Debug */,
+				CE69D34B2AAF8068005E3FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE69D34C2AAF8068005E3FE7 /* Build configuration list for PBXNativeTarget "PlenyTask-SocialApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE69D34D2AAF8068005E3FE7 /* Debug */,
+				CE69D34E2AAF8068005E3FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE69D34F2AAF8068005E3FE7 /* Build configuration list for PBXNativeTarget "PlenyTask-SocialAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE69D3502AAF8068005E3FE7 /* Debug */,
+				CE69D3512AAF8068005E3FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE69D3522AAF8068005E3FE7 /* Build configuration list for PBXNativeTarget "PlenyTask-SocialAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE69D3532AAF8068005E3FE7 /* Debug */,
+				CE69D3542AAF8068005E3FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE69D3202AAF8067005E3FE7 /* Project object */;
+}
